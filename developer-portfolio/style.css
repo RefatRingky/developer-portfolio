@@ -1,0 +1,41 @@
+/* shared all font in devloper portfolio */
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+.btn-primary{
+    background: coral;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px 30px;
+}
+/* nav related style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+nav title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: gray;
+}
